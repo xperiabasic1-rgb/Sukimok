@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Resflix</string>
+    <string name="clock_widget_description">Resflix monochrome digital clock</string>
+    <string name="date_widget_description">Resflix date widget</string>
+    <string name="battery_widget_description">Resflix battery percentage</string>
+    <string name="music_widget_description">Resflix music app shortcut</string>
+    <string name="weather_widget_description">Resflix weather widget placeholder</string>
+    <string name="dot_clock_widget_description">Resflix dot matrix clock</string>
+    <string name="analog_clock_widget_description">Resflix analog clock</string>
+    <string name="calendar_widget_description">Resflix calendar date card</string>
+    <string name="battery_wide_widget_description">Resflix wide battery meter</string>
+</resources>

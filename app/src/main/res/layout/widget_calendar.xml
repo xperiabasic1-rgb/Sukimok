@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+ android:gravity="center" android:padding="14dp" android:background="@drawable/widget_panel">
+ <TextView android:id="@+id/calendarDay" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="WED" android:textColor="@color/resflix_red" android:textStyle="bold" android:textSize="12sp"/>
+ <TextView android:id="@+id/calendarDate" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="18" android:textColor="@color/resflix_text" android:textSize="52sp" android:textStyle="bold"/>
+ <TextView android:id="@+id/calendarMonth" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="NOVEMBER 2026" android:textColor="@color/resflix_muted" android:textSize="10sp"/>
+</LinearLayout>

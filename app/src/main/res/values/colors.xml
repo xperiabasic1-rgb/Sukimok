@@ -1,0 +1,8 @@
+<resources>
+    <color name="resflix_bg">#111111</color>
+    <color name="resflix_panel">#242424</color>
+    <color name="resflix_widget_bg">#171717</color>
+    <color name="resflix_text">#F7F7F7</color>
+    <color name="resflix_muted">#9A9A9A</color>
+    <color name="resflix_red">#E52335</color>
+</resources>

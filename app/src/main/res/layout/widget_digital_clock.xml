@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent" android:layout_height="match_parent"
+ android:orientation="vertical" android:gravity="center_vertical" android:padding="16dp"
+ android:background="@drawable/widget_panel">
+ <TextClock android:id="@+id/clockTime" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:format12Hour="hh:mm" android:format24Hour="HH:mm" android:textColor="@color/resflix_text"
+  android:textSize="42sp" android:fontFamily="monospace" android:textStyle="bold"/>
+ <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="RESFLIX • DIGITAL" android:textColor="@color/resflix_muted" android:textSize="10sp"
+  android:letterSpacing="0.08" android:layout_marginTop="4dp"/>
+</LinearLayout>

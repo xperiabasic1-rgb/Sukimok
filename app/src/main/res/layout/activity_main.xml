@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/resflix_bg"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESFLIX."
+            android:textColor="@color/resflix_text"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="EVERYTHING"
+            android:textColor="@color/resflix_text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WIDGETS."
+            android:textColor="@color/resflix_red"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="NOTHING-INSPIRED WIDGET COLLECTION"
+            android:textColor="@color/resflix_muted"
+            android:textSize="10sp"
+            android:letterSpacing="0.08" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/panel"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:36"
+                android:textColor="@color/resflix_text"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:fontFamily="monospace" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="MONOCHROME  /  DOT MATRIX  /  RED"
+                android:textColor="@color/resflix_muted"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/openWidgetsButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/resflix_red"
+            android:text="EXPLORE WIDGETS"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/refreshButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/resflix_panel"
+            android:text="REFRESH ALL WIDGETS"
+            android:textColor="@color/resflix_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="AVAILABLE WIDGETS"
+            android:textColor="@color/resflix_text"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="01  DIGITAL CLOCK       02  DOT MATRIX CLOCK&#10;03  ANALOG CLOCK         04  DATE CARD&#10;05  CALENDAR CARD       06  BATTERY CARD&#10;07  WIDE BATTERY         08  MUSIC SHORTCUT&#10;09  WEATHER CARD"
+            android:textColor="@color/resflix_muted"
+            android:lineSpacingExtra="8dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/versionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="RESFLIX • VERSION 2.0.0"
+            android:textColor="@color/resflix_muted"
+            android:textSize="10sp" />
+    </LinearLayout>
+</ScrollView>
