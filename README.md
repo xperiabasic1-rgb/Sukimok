@@ -6,10 +6,8 @@ Native Android home-screen widget collection with a monochrome / Nothing-inspire
 - Digital clock (Android TextClock for continuously updated time)
 - Dot-style digital clock
 - Analog clock
-- Date card
 - Calendar date card
 - Battery percentage card
-- Wide battery meter
 - Music app shortcut
 - Weather placeholder card
 
