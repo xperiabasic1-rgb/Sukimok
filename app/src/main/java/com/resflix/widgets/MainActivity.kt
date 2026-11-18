@@ -12,6 +12,7 @@ import android.widget.Toast
 import com.resflix.widgets.widgets.AnalogClockWidget
 import com.resflix.widgets.widgets.BatteryWidget
 import com.resflix.widgets.widgets.CalendarWidget
+import com.resflix.widgets.widgets.Clock2x4Widget
 import com.resflix.widgets.widgets.DigitalClockWidget
 import com.resflix.widgets.widgets.DotMatrixClockWidget
 import com.resflix.widgets.widgets.MusicWidget
@@ -51,6 +52,7 @@ class MainActivity : Activity() {
             DigitalClockWidget::class.java,
             DotMatrixClockWidget::class.java,
             AnalogClockWidget::class.java,
+            Clock2x4Widget::class.java,
             CalendarWidget::class.java,
             BatteryWidget::class.java,
             MusicWidget::class.java,
@@ -69,6 +71,7 @@ class MainActivity : Activity() {
                         ids
                     )
                 }
+
                 sendBroadcast(intent)
             }
         }
